@@ -14,27 +14,27 @@
 }
 
 .navbar{
-    width: 88%;
+    width: 85%;
     margin: auto;
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo{
-    width: 130px;
+    width: 170px;
     cursor: pointer;
 }
 
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 5px;
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #b3a088;
+    color: #f8f6f2;
     font-size: 15px;
 }
 
@@ -50,9 +50,22 @@
 
 .left-col h1{
     font-size: 90px;
-    color: #5f5f5f;
+    color: #f3eded;
     line-height: 110px;
     float: left;
+}
+
+.left-col h1:hover{
+    scale: 1.1;
+}
+
+.left-col h2{
+    font-size: 40px;
+    color: white;
+}
+
+.left-col h3{
+    font-size: 40px;
 }
 
 .right-col{
